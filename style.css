@@ -1,20 +1,14 @@
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: white;
-    font-family: Arial, sans-serif;
 }
 
-.container {
-    text-align: center;
-}
 
 .button {
-    background-color: #1877F2; /* Facebook blue */
+    background-color: #1877F2; 
     border: none;
     border-radius: 5px;
     padding: 15px 30px;
@@ -29,9 +23,5 @@ body {
 }
 
 .button:hover {
-    background-color: #145dbf; /* Slightly darker blue for hover effect */
-}
-
-.button a:visited {
-    color: white;
+    background-color: #145dbf;
 }
