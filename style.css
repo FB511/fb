@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-.facebook-button {
+.button {
     background-color: #1877F2; /* Facebook blue */
     border: none;
     border-radius: 5px;
@@ -22,16 +22,16 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.facebook-button a {
+.button a {
     color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
-.facebook-button:hover {
+.button:hover {
     background-color: #145dbf; /* Slightly darker blue for hover effect */
 }
 
-.facebook-button a:visited {
+.button a:visited {
     color: white;
 }
